@@ -45,6 +45,7 @@ const CheckboxStyle = styled.div`
     ${StyledHiddenCheckableInput},
     ${StyledCheckableInputSvgWrapper},
     svg {
+      float: left;
       box-sizing: border-box;
       width: 16px;
     }

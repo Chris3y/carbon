@@ -52,8 +52,7 @@ describe('StyledCheckableInputWrapper', () => {
     it('applies the correct FormField styles', () => {
       assertStyleMatch(
         {
-          display: 'flex',
-          flexWrap: 'wrap'
+          display: 'block'
         },
         wrapper, { modifier: css`${FormFieldStyle}` }
       );
@@ -63,8 +62,7 @@ describe('StyledCheckableInputWrapper', () => {
       assertStyleMatch(
         {
           textAlign: 'left',
-          width: 'auto',
-          whiteSpace: 'nowrap'
+          width: '100%'
         },
         wrapper, { modifier: css`${LabelStyle}` }
       );

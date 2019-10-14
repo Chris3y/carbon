@@ -18,14 +18,12 @@ const StyledCheckableInputWrapper = styled.div`
     disabled, fieldHelpInline, inputWidth, labelAlign, labelWidth, theme
   }) => css`
     ${FormFieldStyle} {
-      display: flex;
-      flex-wrap: wrap;
+      display: block;
     }
 
     ${LabelStyle} {
       text-align: ${labelAlign};
-      width: auto;
-      white-space: nowrap;
+      width: 100%;
       margin-top: -2px;
 
       & ${StyledHelp},

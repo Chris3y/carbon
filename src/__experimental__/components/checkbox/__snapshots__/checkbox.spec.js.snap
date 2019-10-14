@@ -23,19 +23,12 @@ exports[`Checkbox base theme renders as expected 1`] = `
 }
 
 .c1 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: block;
 }
 
 .c1 .c26 {
   text-align: left;
-  width: auto;
-  white-space: nowrap;
+  width: 100%;
   margin-top: -2px;
 }
 
@@ -54,23 +47,11 @@ exports[`Checkbox base theme renders as expected 1`] = `
 }
 
 .c9 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: block;
 }
 
 .c10 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: block;
 }
 
 .c10 .c6:hover,
@@ -82,13 +63,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 }
 
 .c11 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: block;
 }
 
 .c11 .c4 {
@@ -96,13 +71,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 }
 
 .c12 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: block;
 }
 
 .c12 .c6:hover,
@@ -132,6 +101,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c13 .c6,
 .c13 .c8,
 .c13 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -178,6 +148,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c14 .c6,
 .c14 .c8,
 .c14 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -224,6 +195,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c15 .c6,
 .c15 .c8,
 .c15 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -258,6 +230,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c16 .c6,
 .c16 .c8,
 .c16 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -292,6 +265,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c17 .c6,
 .c17 .c8,
 .c17 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -320,6 +294,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c18 .c6,
 .c18 .c8,
 .c18 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -348,6 +323,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c19 .c6,
 .c19 .c8,
 .c19 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -380,6 +356,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c20 .c6,
 .c20 .c8,
 .c20 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -436,6 +413,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c21 .c6,
 .c21 .c8,
 .c21 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -498,6 +476,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c22 .c6,
 .c22 .c8,
 .c22 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
@@ -569,6 +548,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c0 .c6,
 .c0 .c8,
 .c0 svg {
+  float: left;
   box-sizing: border-box;
   width: 16px;
 }
