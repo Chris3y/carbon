@@ -15,6 +15,7 @@ const CheckboxStyle = styled.div`
   ${({
     checked, disabled, hasError, hasWarning, hasInfo, fieldHelpInline, inputWidth, reverse, size, theme
   }) => css`
+    float: left;
     padding-top: 8px;
 
     ${StyledCheckableInput} {
@@ -37,6 +38,7 @@ const CheckboxStyle = styled.div`
     ${StyledHiddenCheckableInput},
     svg {
       height: 16px;
+      width: 16px;
       position: absolute;
       padding: 1px;
     }
@@ -45,26 +47,33 @@ const CheckboxStyle = styled.div`
     ${StyledHiddenCheckableInput},
     ${StyledCheckableInputSvgWrapper},
     svg {
-      float: left;
       box-sizing: border-box;
-      width: 16px;
     }
 
     ${StyledHiddenCheckableInput}:not([disabled]) {
       &:focus + ${StyledCheckableInputSvgWrapper},
       &:hover + ${StyledCheckableInputSvgWrapper} {
+        display: block;
+        float: left;
+        width: 16px;
         box-shadow: 0 0 0 3px ${theme.colors.focus};
       }
     }
 
     ${StyledLabel} {
       padding: 0 6px;
-      width: auto;
+      margin-top: -19px;
+      margin-left: 16px;
+
+      label {
+        float: left;
+        margin-bottom: 4px;
+      }
     }
 
     ${StyledFieldHelp} {
       margin-left: 16px;
-      margin-top: 0;
+      margin-top: -3px;
       padding-left: 6px;
     }
 

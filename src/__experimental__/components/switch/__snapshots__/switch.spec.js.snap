@@ -40,7 +40,7 @@ exports[`Switch base theme renders as expected 1`] = `
 .c1 .c31 .c30 {
   color: rgba(0,0,0,0.65);
   vertical-align: middle;
-  top: -1px;
+  top: -4px;
 }
 
 .c1 .c31 .c29:hover,

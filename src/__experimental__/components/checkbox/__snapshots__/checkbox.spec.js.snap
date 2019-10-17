@@ -36,7 +36,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c1 .c26 .c25 {
   color: rgba(0,0,0,0.65);
   vertical-align: middle;
-  top: -1px;
+  top: -4px;
 }
 
 .c1 .c26 .c24:hover,
@@ -93,6 +93,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c13 .c6,
 .c13 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -101,13 +102,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c13 .c6,
 .c13 .c8,
 .c13 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c13 .c6:not([disabled]):focus + .c8,
 .c13 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -140,6 +142,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c14 .c6,
 .c14 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -148,13 +151,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c14 .c6,
 .c14 .c8,
 .c14 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c14 .c6:not([disabled]):focus + .c8,
 .c14 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -187,6 +191,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c15 .c6,
 .c15 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -195,13 +200,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c15 .c6,
 .c15 .c8,
 .c15 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c15 .c6:not([disabled]):focus + .c8,
 .c15 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -222,6 +228,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c16 .c6,
 .c16 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -230,13 +237,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c16 .c6,
 .c16 .c8,
 .c16 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c16 .c6:not([disabled]):focus + .c8,
 .c16 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -257,6 +265,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c17 .c6,
 .c17 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -265,13 +274,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c17 .c6,
 .c17 .c8,
 .c17 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c17 .c6:not([disabled]):focus + .c8,
 .c17 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -286,6 +296,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c18 .c6,
 .c18 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -294,13 +305,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c18 .c6,
 .c18 .c8,
 .c18 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c18 .c6:not([disabled]):focus + .c8,
 .c18 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -315,6 +327,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c19 .c6,
 .c19 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -323,13 +336,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c19 .c6,
 .c19 .c8,
 .c19 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c19 .c6:not([disabled]):focus + .c8,
 .c19 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -348,6 +362,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c20 .c6,
 .c20 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -356,13 +371,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c20 .c6,
 .c20 .c8,
 .c20 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c20 .c6:not([disabled]):focus + .c8,
 .c20 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -405,6 +421,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c21 .c6,
 .c21 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -413,13 +430,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c21 .c6,
 .c21 .c8,
 .c21 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c21 .c6:not([disabled]):focus + .c8,
 .c21 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -468,6 +486,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c22 .c6,
 .c22 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -476,13 +495,14 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c22 .c6,
 .c22 .c8,
 .c22 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c22 .c6:not([disabled]):focus + .c8,
 .c22 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
@@ -521,6 +541,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 }
 
 .c0 {
+  float: left;
   padding-top: 8px;
 }
 
@@ -540,6 +561,7 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c0 .c6,
 .c0 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -548,24 +570,31 @@ exports[`Checkbox base theme renders as expected 1`] = `
 .c0 .c6,
 .c0 .c8,
 .c0 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c0 .c6:not([disabled]):focus + .c8,
 .c0 .c6:not([disabled]):hover + .c8 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
 .c0 .c26 {
   padding: 0 6px;
-  width: auto;
+  margin-top: -19px;
+  margin-left: 16px;
+}
+
+.c0 .c26 label {
+  float: left;
+  margin-bottom: 4px;
 }
 
 .c0 .c23 {
   margin-left: 16px;
-  margin-top: 0;
+  margin-top: -3px;
   padding-left: 6px;
 }
 

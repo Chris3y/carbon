@@ -50,7 +50,7 @@ exports[`CheckboxGroup renders as expected 1`] = `
 .c7 .c3 .c17 {
   color: rgba(0,0,0,0.65);
   vertical-align: middle;
-  top: -1px;
+  top: -4px;
 }
 
 .c7 .c3 .c16:hover,
@@ -61,6 +61,7 @@ exports[`CheckboxGroup renders as expected 1`] = `
 }
 
 .c6 {
+  float: left;
   padding-top: 8px;
 }
 
@@ -80,6 +81,7 @@ exports[`CheckboxGroup renders as expected 1`] = `
 .c6 .c10,
 .c6 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -88,24 +90,31 @@ exports[`CheckboxGroup renders as expected 1`] = `
 .c6 .c10,
 .c6 .c12,
 .c6 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c6 .c10:not([disabled]):focus + .c12,
 .c6 .c10:not([disabled]):hover + .c12 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
 .c6 .c3 {
   padding: 0 6px;
-  width: auto;
+  margin-top: -19px;
+  margin-left: 16px;
+}
+
+.c6 .c3 label {
+  float: left;
+  margin-bottom: 4px;
 }
 
 .c6 .c14 {
   margin-left: 16px;
-  margin-top: 0;
+  margin-top: -3px;
   padding-left: 6px;
 }
 
@@ -125,6 +134,7 @@ exports[`CheckboxGroup renders as expected 1`] = `
 .c13 .c10,
 .c13 svg {
   height: 16px;
+  width: 16px;
   position: absolute;
   padding: 1px;
 }
@@ -133,19 +143,26 @@ exports[`CheckboxGroup renders as expected 1`] = `
 .c13 .c10,
 .c13 .c12,
 .c13 svg {
-  float: left;
   box-sizing: border-box;
-  width: 16px;
 }
 
 .c13 .c10:not([disabled]):focus + .c12,
 .c13 .c10:not([disabled]):hover + .c12 {
+  display: block;
+  float: left;
+  width: 16px;
   box-shadow: 0 0 0 3px #FFB500;
 }
 
 .c13 .c3 {
   padding: 0 6px;
-  width: auto;
+  margin-top: -19px;
+  margin-left: 16px;
+}
+
+.c13 .c3 label {
+  float: left;
+  margin-bottom: 4px;
 }
 
 .c0 .c15::before {
