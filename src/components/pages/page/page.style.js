@@ -9,31 +9,33 @@ const StyledPage = styled.article`
   height: 100%;
 
   ${LinkStyleAnchor} {
-    text-decoration: none;
-
-    ${({ theme }) => !isClassic(theme) && css`
-      height: 25px;
-      margin-top: -12px;
-    `}
-
-    &:hover {
+    a{
       text-decoration: none;
-    }
-
-    ${StyledIcon} {
-      margin-top: -9px;
-      margin-right: 0px;
-      top: 11px;
-      color: #4d7080;
-
-      &:hover {
-        color: #335B6D;
-      }
 
       ${({ theme }) => !isClassic(theme) && css`
-        margin-top: 0px;
-        top: 5px;
+        height: 25px;
+        margin-top: -12px;
       `}
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      ${StyledIcon} {
+        margin-top: -9px;
+        margin-right: 0px;
+        top: 11px;
+        color: #4d7080;
+
+        &:hover {
+          color: #335B6D;
+        }
+
+        ${({ theme }) => !isClassic(theme) && css`
+          margin-top: 0px;
+          top: 5px;
+        `}
+      }
     }
   }
 `;
