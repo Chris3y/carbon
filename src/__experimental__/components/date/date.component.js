@@ -1,5 +1,4 @@
 import React from 'react';
-import I18n from 'i18n-js';
 import PropTypes from 'prop-types';
 import Events from '../../../utils/helpers/events';
 import DateHelper from '../../../utils/helpers/date';
@@ -30,7 +29,7 @@ class BaseDateInput extends React.Component {
     /** Date object to pass to the DatePicker */
     selectedDate: DateHelper.stringToDate(this.initialVisibleValue),
     /** Displayed value, format dependent on a region */
-    visibleValue: formatDateToCurrentLocale(this.initialVisibleValue)
+    visibleValue: DateHelper.formatDateToCurrentLocale(this.initialVisibleValue)
   };
 
   componentDidMount() {
@@ -107,7 +106,7 @@ class BaseDateInput extends React.Component {
   reformatVisibleDate = () => {
     const { visibleValue } = this.state;
     if (DateHelper.isValidDate(visibleValue)) {
-      this.setState({ visibleValue: formatDateToCurrentLocale(visibleValue) });
+      this.setState({ visibleValue: DateHelper.formatDateToCurrentLocale(visibleValue) });
     }
   }
 
@@ -128,7 +127,7 @@ class BaseDateInput extends React.Component {
   };
 
   updateVisibleValue = (date, pickerUsed) => {
-    const visibleValue = formatDateToCurrentLocale(date);
+    const visibleValue = DateHelper.formatDateToCurrentLocale(date);
     const newDate = this.getDateObject(date);
 
     this.setState({ selectedDate: newDate, visibleValue },
@@ -193,7 +192,7 @@ class BaseDateInput extends React.Component {
       ...(id && { id }),
       value:
         {
-          displayText: formatDateToCurrentLocale(value),
+          displayText: DateHelper.formatDateToCurrentLocale(value),
           optionValue: isoFormattedValue
         }
     };
@@ -258,12 +257,6 @@ function concatAllValidations(props) {
   if (typeof props.validations === 'function') props.validations = [props.validations];
 
   return [...props.validations, ...props.internalValidations];
-}
-
-function formatDateToCurrentLocale(value) {
-  const visibleFormat = I18n.t('date.formats.javascript', { defaultValue: defaultDateFormat }).toUpperCase();
-
-  return DateHelper.formatValue(value || DateHelper.todayFormatted(), visibleFormat);
 }
 
 const DateInput = withUniqueName(BaseDateInput);
