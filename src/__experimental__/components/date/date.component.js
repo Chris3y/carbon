@@ -244,6 +244,7 @@ class BaseDateInput extends React.Component {
           { ...inputProps }
           inputIcon='calendar'
           value={ this.state.visibleValue }
+          rawValue={ DateHelper.formatDateString(this.state.selectedDate) }
           inputRef={ this.assignInput }
           { ...events }
         />
