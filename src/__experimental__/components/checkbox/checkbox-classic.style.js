@@ -1,16 +1,16 @@
 import { css } from 'styled-components';
-import { THEMES } from '../../../style/themes';
 import { StyledCheckableInput } from '../checkable-input/checkable-input.style';
 import FieldHelpStyle from '../field-help/field-help.style';
 import HiddenCheckableInputStyle from '../checkable-input/hidden-checkable-input.style';
 import StyledCheckableInputSvgWrapper from '../checkable-input/checkable-input-svg-wrapper.style';
 import LabelStyle from '../label/label.style';
 import StyledHelp from '../../../components/help/help.style';
+import { isClassic } from '../../../utils/helpers/style-helper';
 import StyledIcon from '../../../components/icon/icon.style';
 
 export default ({
   checked, disabled, fieldHelpInline, reverse, theme
-}) => theme.name === THEMES.classic && css`
+}) => isClassic(theme) && css`
   ${StyledCheckableInput} {
     padding: 1px 0 0 0;
   }
@@ -39,7 +39,7 @@ export default ({
   }
 
   ${LabelStyle} ${StyledIcon}::before {
-    content: '\\E943';
+    font-size: 16px;
   }
 
   ${LabelStyle} {

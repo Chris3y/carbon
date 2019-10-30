@@ -19,16 +19,19 @@ const ValidationIconStyle = styled.div`
     color: ${({ validationType, theme }) => theme.colors[validationType]};
   }
 
-  ${StyledIcon}:focus {
-    outline: ${({ theme }) => `2px solid ${theme.colors.focus}`};
-  }
-
   ${({ theme }) => isClassic(theme) && css`
     ${StyledIcon}:before {
       font-size: 20px;
     }
+
     ${StyledIcon}:focus {
       outline: none;
+    }
+  `}
+  
+  ${({ theme }) => !isClassic(theme) && css`
+    ${StyledIcon}:focus {
+      outline: solid 2px ${theme.colors.focus};
     }
   `}
 `;
